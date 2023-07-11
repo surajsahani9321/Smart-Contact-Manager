@@ -34,10 +34,10 @@
                               <button type="submit" class="btn btn-primary">
                                   Login
                               </button>
-                              <a href="{{ route('forget.password.get') }}">
                               <button class="btn btn-danger">
+                              <a href="{{ route('forget.password.get') }}" class="text-light">
                               Reset Password
-                              </button></a>
+                             </a> </button>
                           </div>
                       </form>
                         
